@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.mask-bg {
+    background: white;
+    -webkit-mask-image: url('./assets/pudina.png');
+    mask-image: url('./assets/pudina.png');
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+  }
+  
